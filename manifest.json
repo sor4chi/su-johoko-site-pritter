@@ -10,7 +10,10 @@
     },
     "content_scripts": [
         {
-            "matches": ["http://www.aise.ics.saitama-u.ac.jp/~gotoh/*", "https://www.aise.ics.saitama-u.ac.jp/~gotoh/*"],
+            "matches": [
+                "http://www.aise.ics.saitama-u.ac.jp/~gotoh/*",
+                "https://www.aise.ics.saitama-u.ac.jp/~gotoh/*"
+            ],
             "js": ["content_scripts.js"],
             "css": ["content_scripts.css"]
         }
@@ -19,7 +22,7 @@
         "scripts": ["background.js"]
     },
     "browser_action": {
-        "default_icon": "icon_32.png",
+        "default_icon": "32.png",
         "default_title": "",
         "default_popup": "popup.html"
     },

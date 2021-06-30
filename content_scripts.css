@@ -1,0 +1,22 @@
+body {
+    background-color: white !important;
+    padding: 0 5% !important;
+}
+h2 {
+    background: none !important;
+    color: black !important;
+    border: 0.5px rgba(150, 150, 150, 0.5) solid !important;
+    border-left: 5px rgb(243, 44, 87) solid !important;
+    padding: 10px !important;
+}
+h3 {
+    background: none !important;
+    color: black !important;
+    padding: 10px !important;
+    border: none !important;
+    border-bottom: 0.5px rgba(150, 150, 150, 0.5) solid !important;
+}
+h3::first-letter {
+    font-size: 1.2em !important;
+    color: rgb(243, 44, 87) !important;
+}
